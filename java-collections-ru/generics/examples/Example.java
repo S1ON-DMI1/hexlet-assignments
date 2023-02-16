@@ -41,20 +41,20 @@ public class Example {
 //
 //        Util.getAmountOfUsers(users);
 //
-//        Map<String, List<String>> authorAndBooksMap = new HashMap<>();
-//        List<String> booksPushkin = new ArrayList<>();
-//        booksPushkin.add("Золотая рыбка");
-//        booksPushkin.add("Евгений Онегин");
-//
-//        authorAndBooksMap.put("Пушкин", booksPushkin);
-//
-//        List<String> booksTolstoy = new ArrayList<>();
-//        booksPushkin.add("Война и мир");
-//        booksPushkin.add("Анна Каренина");
-//
-//        authorAndBooksMap.put("Толстой", booksTolstoy);
-//
-//        System.out.println("Всего мы храним " + Util.getAmountOfBooks(authorAndBooksMap) + " книг");
+        Map<String, List<String>> authorAndBooksMap = new HashMap<>();
+        List<String> booksPushkin = new ArrayList<>();
+        booksPushkin.add("Золотая рыбка");
+        booksPushkin.add("Евгений Онегин");
+
+        authorAndBooksMap.put("Пушкин", booksPushkin);
+
+        List<String> booksTolstoy = new ArrayList<>();
+        booksPushkin.add("Война и мир");
+        booksPushkin.add("Анна Каренина");
+
+        authorAndBooksMap.put("Толстой", booksTolstoy);
+
+        System.out.println("Всего мы храним " + Util.getAmountOfBooks(authorAndBooksMap) + " книг");
 //
 //        // обобщенные методы
 //        List<User> userList = new ArrayList<>();
